@@ -5,7 +5,7 @@ html,body{
 }
 .container{
     height:200px;
-    width:calc(200px*7/6);
+    width:calc(200px*7/6); /* aspect ratio of Niger's Flag is 6 (width) : 7 (height) */
     background:blue;
     margin:1em auto;
     display:grid;
@@ -24,6 +24,7 @@ html,body{
     background: green;
 }
 .circle{
+    /* both height and width of circle is 85% of the height and width of the (white)stripe. */
     height:56.67px;
     width:56.67px;
     background-color: orange;
