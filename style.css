@@ -1,0 +1,32 @@
+html,body{
+    margin:0;
+    padding:0;
+    background: black;
+}
+.container{
+    height:200px;
+    width:calc(200px*7/6);
+    background:blue;
+    margin:1em auto;
+    display:grid;
+}
+.orange{
+    background:orange;
+}
+.white{
+    background: white;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.green{
+    background: green;
+}
+.circle{
+    height:56.67px;
+    width:56.67px;
+    background-color: orange;
+    border-radius:50%;
+    position:absolute;
+}
